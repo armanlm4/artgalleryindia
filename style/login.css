@@ -1,0 +1,72 @@
+#logindiv{
+width:270px;
+height:100px;
+background-color:rgba(170,212,255,0.3);
+overflow:hidden;
+position:relative;
+top:200px;
+margin:auto;
+padding:20px;
+} 
+.textlabel
+{
+font-size:15px;
+color:white;
+opacity:1;
+}
+input
+{
+opacity:1;
+width:170px;
+display:inline;
+}
+input[type=text]:focus {border-color:#333; }
+
+input[type=password]:focus {border-color:#333; }
+
+input[type=submit] 
+{
+padding:5px 15px;
+ background:#00FFAA; 
+ border:0.5px solid;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#loginbutton
+{   display:inline;
+position:relative;
+top:8px;
+left:75px;
+    width: 6.4em; 
+	height: 1.8em;
+}
+#signupbutton
+{
+display:inline;
+position:relative;
+top:-16px;
+left:163px;
+    width: 6.4em; 
+	height: 1.8em;
+}
+#loginbutton:hover{
+
+ background:#7FAAFF; 
+ border:1px solid;
+
+}
+#signupbutton:hover{
+
+ background:#7FAAFF; 
+ border:1px solid;
+
+}
+#forget
+{
+color:silver;
+text-decoration:none;
+position: relative;
+top:-5px;
+left:76px;
+}
